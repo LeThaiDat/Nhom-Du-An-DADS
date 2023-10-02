@@ -6,8 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#E6DBDB"
+    android:background="@drawable/backgrow_signin"
     tools:context=".View.User.SigninActivity">
+
+    <ImageView
+        android:src="@drawable/icon_signin"
+        android:layout_width="120dp"
+        android:layout_height="120dp"/>
 
     <androidx.cardview.widget.CardView
         android:outlineAmbientShadowColor="#4CAF50"
@@ -100,7 +105,7 @@
     </androidx.cardview.widget.CardView>
 
     <TextView
-
+        android:id="@+id/tv_signup"
         android:textSize="18dp"
         android:textColor="#F44336"
         android:gravity="center"
