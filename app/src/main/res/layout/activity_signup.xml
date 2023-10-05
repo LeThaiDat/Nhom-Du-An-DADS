@@ -11,8 +11,8 @@
 
     <ImageView
         android:src="@drawable/icon_signin"
-        android:layout_width="120dp"
-        android:layout_height="120dp"/>
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
 
     <androidx.cardview.widget.CardView
         android:outlineAmbientShadowColor="#4CAF50"
@@ -40,7 +40,7 @@
                 android:textStyle="bold"
                 />
             <com.google.android.material.textfield.TextInputLayout
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -59,8 +59,50 @@
 
             </com.google.android.material.textfield.TextInputLayout>
 
+
+
             <com.google.android.material.textfield.TextInputLayout
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:hint="Nhập Số Điện Thoại"
+                    android:drawableStart="@drawable/baseline_phone_24"
+                    android:drawablePadding="7dp"
+                    android:paddingLeft="10dp"
+                    android:textColorHighlight="@color/black"
+                    android:background="@drawable/custom_edittex">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:hint="Nhập Địa Chỉ"
+                    android:drawableStart="@drawable/baseline_location_on_24"
+                    android:drawablePadding="7dp"
+                    android:paddingLeft="10dp"
+                    android:textColorHighlight="@color/black"
+                    android:background="@drawable/custom_edittex">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="10dp"
                 app:endIconMode="password_toggle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -82,7 +124,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 app:endIconMode="password_toggle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -107,7 +149,7 @@
 
             <Button
                 android:textSize="25dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:text="Đăng ký"
@@ -120,10 +162,10 @@
 
     <TextView
         android:id="@+id/tv_signin"
-        android:textSize="18dp"
-        android:textColor="#F44336"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Đã có tài khoản? Đăng nhập ngay"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:textColor="#F44336"
+        android:textSize="18dp" />
 </LinearLayout>
