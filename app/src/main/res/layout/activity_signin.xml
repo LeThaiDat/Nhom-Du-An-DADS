@@ -45,6 +45,7 @@
                 android:layout_height="wrap_content">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edt_mailLogin"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:hint="Nhập Email"
@@ -66,6 +67,7 @@
                 android:layout_height="wrap_content">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edt_passLogin"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:hint="Nhập Mật Khẩu"
@@ -92,6 +94,7 @@
 
 
             <Button
+                android:id="@+id/btn_Login"
                 android:textSize="25dp"
                 android:layout_marginTop="30dp"
                 android:layout_width="match_parent"
