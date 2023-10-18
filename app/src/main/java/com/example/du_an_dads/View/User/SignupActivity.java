@@ -8,8 +8,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.du_an_dads.AddProductActivity;
+import com.example.du_an_dads.HomeActivity;
 import com.example.du_an_dads.R;
+
 
 public class SignupActivity extends AppCompatActivity {
     TextView tvsignin;
@@ -23,7 +24,7 @@ public class SignupActivity extends AppCompatActivity {
         tvsignin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(SignupActivity.this, AddProductActivity.class));
+                startActivity(new Intent(SignupActivity.this, HomeActivity.class));
             }
         });
     }
