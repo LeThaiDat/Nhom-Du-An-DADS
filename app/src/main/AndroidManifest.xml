@@ -20,7 +20,7 @@
             android:name=".View.User.SigninActivity"
             android:exported="false" />
         <activity
-            android:name=".View.HomeActivity"
+            android:name=".HomeActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
